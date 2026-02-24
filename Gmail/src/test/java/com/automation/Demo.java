@@ -12,6 +12,9 @@ public class Demo {
 		System.out.println(userName.toLowerCase());
 		System.out.println(userName.toUpperCase());
 		System.out.println(userName.isEmpty());
+		System.out.println(userName.isEmpty());
+		System.out.println(userName.isEmpty());
+		System.out.println(userName.isEmpty());
 		
 		for(int i=userName.length()-1; i>=0; i--) {
 			reverse += userName.charAt(i);

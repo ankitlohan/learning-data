@@ -1,0 +1,4 @@
+RoleName###RoleType###Results
+Managericicis###E
+Clerckcicis###E
+Gmanager###E

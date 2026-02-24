@@ -1,0 +1,4 @@
+RoleName###RoleType###Results
+Managericicis###E$$$$pass
+Clerckcicis###E$$$$pass
+Gmanager###E$$$$pass

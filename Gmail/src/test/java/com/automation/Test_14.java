@@ -28,12 +28,9 @@ public class Test_14 {
 				            if(status.equals("FAIL")) {
 				                System.out.println(testCase + "=" + status);
 				            }
+				            
+				            statusCount.put(status, statusCount.getOrDefault(status, 0)+1);
 
-							if(statusCount.containsKey(status)) {
-								statusCount.put(status, statusCount.get(status)+1);
-							}else {
-								statusCount.put(status, 1);}
-				        }
 
 				        System.out.println("\nStatus Count:");
 
@@ -44,5 +41,4 @@ public class Test_14 {
 					
 		        	
 		        	
-	}
-}
+}}}

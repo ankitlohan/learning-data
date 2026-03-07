@@ -5,6 +5,7 @@ public class Test_1 {
 	public static void main(String[] args) {
 		int[] arr = {1,0,2,3,0,4,5,0};
 		
+		////without creating a new array
 		int[] result = new int[arr.length];
 		int value=0;
 		
@@ -17,10 +18,10 @@ public class Test_1 {
 		for(int e: result) {
 			System.out.print(e);
 		}
-System.out.println();
+		System.out.println();
 		
+		//without creating a new array
 		int j = 0;
-
 		for(int i = 0; i < arr.length; i++) {
 		    if(arr[i] != 0) {
 		        int temp = arr[i];

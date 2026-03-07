@@ -1,5 +1,6 @@
 package com.automation;
 
+
 public class Test_8 {
 	
 	public static void main(String[] args) {
@@ -12,9 +13,6 @@ public class Test_8 {
 		reverse += test.charAt(i);
 	}
 	System.out.println(reverse);
-
-	String count = "This is a string with length";
-	System.out.println(count.length());
 			
 }
 }

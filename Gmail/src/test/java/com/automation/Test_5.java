@@ -13,6 +13,13 @@ public class Test_5 {
 					int temp = arr[i];
 					arr[i]= arr[j];
 					arr[j]=temp;}}}
-//		for(int i=arr.length-1; i>=0; i--)
-//		{System.out.print(arr[i]);}
+		//find biggest
+		for(int i=arr.length-1; i>=0; i--)
+		{System.out.print(arr[i] + " ");}
+		
+		System.out.println();
+		
+		//find smallest
+		for(int i=0; i<=arr.length-1; i++)
+		{System.out.print(arr[i] + " ");}
 }}
